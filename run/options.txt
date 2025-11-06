@@ -160,8 +160,8 @@ key_key.battle.pokemon.team:key.keyboard.tab
 key_key.battle.right:key.keyboard.d
 key_key.battle.up:key.keyboard.w
 key_key.battle.accept:key.keyboard.space
-soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_master:0.34105960264900664
+soundCategory_music:0.01056338028169014
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

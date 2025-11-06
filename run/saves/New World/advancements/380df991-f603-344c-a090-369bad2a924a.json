@@ -17,5 +17,2817 @@
     },
     "done": false
   },
+  "pixelmon:recipes/decor/folding_chair/lime_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/gray_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/black_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/ultra_ball_lid": {
+    "criteria": {
+      "has_apricorn": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/green_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/friend_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/cyan_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/white_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/red_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/magenta_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/magenta_healer": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300",
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/orange_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/lime_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil/fossil_machine_top": {
+    "criteria": {
+      "has_cleaned_fossil": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/aluminum/aluminum_equipment": {
+    "criteria": {
+      "has_aluminum": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/yellow_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/sport_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/green_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/gray_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/crystal/crystal_equipment": {
+    "criteria": {
+      "has_crystal": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/purple_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/flute/blue_flute": {
+    "criteria": {
+      "has_flute": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/black_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/yellow_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/terrain/tree": {
+    "criteria": {
+      "has_leaves": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/pink_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil/fossil_machine_display": {
+    "criteria": {
+      "has_cleaned_fossil": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/orange_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/yellow_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/lime_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/yellow_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/red_healer": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300",
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/black_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/juice/colorful_juice": {
+    "criteria": {
+      "has_juice_berry_3": "2025-11-06 00:02:01 -0300",
+      "has_juice_berry_1": "2025-11-06 00:02:01 -0300",
+      "has_juice_berry_2": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/luxury_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/pink_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/orange_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/jet_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/neo_plasma/neo_plasma_equipment": {
+    "criteria": {
+      "has_crystal": "2025-11-06 00:02:01 -0300",
+      "has_silicon": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/purple_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/purple_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/purple_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/orange_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/brown_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/great_ball_lid": {
+    "criteria": {
+      "has_apricorn": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/light_gray_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/ruby/ruby_equipment": {
+    "criteria": {
+      "has_ruby": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/yellow_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/ancient_ultra_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/brown_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/white_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/magenta_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/yellow_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/cyan_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/light_gray_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/poke_ball_lid": {
+    "criteria": {
+      "has_apricorn": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/cyan_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/outside_wall": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_comma": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/lime_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/blue_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/brown_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/silicon/silicon_equipment": {
+    "criteria": {
+      "has_silicon": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/light_blue_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/rocket/rocket_equipment": {
+    "criteria": {
+      "has_amethyst": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/movement_plate": {
+    "criteria": {
+      "has_redstone": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/flute/yellow_flute": {
+    "criteria": {
+      "has_flute": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/cyan_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/purple_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_blank": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/gray_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/repeat_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/light_blue_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/purple_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/light_gray_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/brown_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/lure_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/magenta_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/purple_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/moon_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/light_blue_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/purple_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/blue_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/red_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/yellow_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/red_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/light_blue_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/ball/dream_ball_new": {
+    "criteria": {
+      "has_dusk_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/red_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/blue_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/gray_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/green_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/cyan_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/badgecase/yellowbadgecase": {
+    "criteria": {
+      "has_badgecase": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/gray_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/wooden_flooring": {
+    "criteria": {
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/blue_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/magenta_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/yellow_healer": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300",
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/black_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/red_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/gray_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/magenta_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/trade_machine/trade_holder_right": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/base/aluminum_base": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/ancient_great_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/flute/black_flute": {
+    "criteria": {
+      "has_flute": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/purple_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/trade_machine/trade_monitor": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/gray_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/light_gray_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/heal_ball_lid": {
+    "criteria": {
+      "has_apricorn": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/movement/mach_bike_frame": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/black_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/red_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/light_blue_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/orange_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/curry_dex": {
+    "criteria": {
+      "has_curry_ingredient": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/blue_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/gigaton_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/gray_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/pink_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/orange_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/badgecase/greenbadgecase": {
+    "criteria": {
+      "has_badgecase": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/pink_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/blue_healer": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300",
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/purple_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/white_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/brown_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/window2": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/lime_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/black_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/white_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/brown_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/yellow_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/vanilla/wooden_hammer": {
+    "criteria": {
+      "has_planks": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/red_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/juice/blue_juice": {
+    "criteria": {
+      "has_blue_juice_berry_2": "2025-11-06 00:02:01 -0300",
+      "has_blue_juice_berry_3": "2025-11-06 00:02:01 -0300",
+      "has_blue_juice_berry_1": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/dive_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/elevator": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/orange_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/green_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/green_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/lime_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/light_gray_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/max_repel": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/cookingpot": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300",
+      "has_curry_ingredient": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/pink_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/black_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/orange_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/badgecase/redbadgecase": {
+    "criteria": {
+      "has_badgecase": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/magenta_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/lime_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/badgecase/whitebadgecase": {
+    "criteria": {
+      "has_badgecase": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/cyan_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/light_gray_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/cyan_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/white_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/magenta_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/flute/green_flute": {
+    "criteria": {
+      "has_flute": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/green_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/brown_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/light_gray_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/blue_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/cyan_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/light_blue_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/pink_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/black_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/silver/silver_equipment": {
+    "criteria": {
+      "has_silver": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/white_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/stick_plate": {
+    "criteria": {
+      "has_redstone": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/black_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/blue_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/red_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/trade_machine/trade_panel": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/orange_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/juice/pink_juice": {
+    "criteria": {
+      "has_pink_juice_berry_3": "2025-11-06 00:02:01 -0300",
+      "has_pink_juice_berry_2": "2025-11-06 00:02:01 -0300",
+      "has_pink_juice_berry_1": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/red_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/base/iron_base": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/pink_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/light_blue_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/juice/red_juice": {
+    "criteria": {
+      "has_red_juice_berry_1": "2025-11-06 00:02:01 -0300",
+      "has_red_juice_berry_2": "2025-11-06 00:02:01 -0300",
+      "has_red_juice_berry_3": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/light_blue_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/light_blue_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/brown_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/gray_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/magenta_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/white_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/light_blue_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/brown_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/movement/old_running_boots": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/premier_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/blue_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_question": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/green_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/blue_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/light_blue_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/brown_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/magenta_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/badgecase/bluebadgecase": {
+    "criteria": {
+      "has_badgecase": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil/fossil_cleaner": {
+    "criteria": {
+      "has_uncleaned_fossil": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/purple_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/light_gray_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/purple_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/yellow_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/red_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/gray_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/infuser": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300",
+      "has_amethyst": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/orange_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/blue_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/lime_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/yellow_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/brown_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_z": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_x": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_y": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_v": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_w": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/orange_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_d": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_e": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_b": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_c": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_a": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_t": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_u": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_r": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_s": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_p": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/light_gray_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_q": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_n": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_o": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_l": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_m": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/lime_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_j": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_k": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_h": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_i": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_f": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_g": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/light_blue_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/green_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/reveal_glass": {
+    "criteria": {
+      "has_sapphire": "2025-11-06 00:02:01 -0300",
+      "has_ruby": "2025-11-06 00:02:01 -0300",
+      "has_crystal": "2025-11-06 00:02:01 -0300",
+      "has_emerald": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/light_blue_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/light_gray_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/brown_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/yellow_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/timer_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/household_items/fan": {
+    "criteria": {
+      "has_aluminum": "2025-11-06 00:02:01 -0300",
+      "has_redstone": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/ancient_poke_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/light_gray_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/cyan_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/white_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/red_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/green_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/base/silver_base": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/pink_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/orange_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/household_items/glass_table": {
+    "criteria": {
+      "has_planks": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/pink_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/inside_wall": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/green_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/shingles": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/movement/wheel": {
+    "criteria": {
+      "has_silicon": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/black_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/super_repel": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/orange_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/magenta_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/net_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_exclaim": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/pink_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/blue_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/safari_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/galactic/galactic_equipment": {
+    "criteria": {
+      "has_silicon": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/badgecase/pinkbadgecase": {
+    "criteria": {
+      "has_badgecase": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/movement/acro_bike_frame": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/red_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/love_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/lime_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/white_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/magenta_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/yellow_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/light_gray_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil/fossil_machine": {
+    "criteria": {
+      "has_cleaned_fossil": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/brown_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/wing_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/pink_healer": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300",
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/white_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/black_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/platinum/platinum_equipment": {
+    "criteria": {
+      "has_platinum": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/ancient_heavy_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/lime_healer": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300",
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/heavy_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/yellow_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/black_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/pink_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/purple_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/lime_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/gray_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/level_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/black_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/black_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/green_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/brown_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/cyan_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/lime_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/juice/purple_juice": {
+    "criteria": {
+      "has_purple_juice_berry_2": "2025-11-06 00:02:01 -0300",
+      "has_purple_juice_berry_3": "2025-11-06 00:02:01 -0300",
+      "has_purple_juice_berry_1": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/item_finder": {
+    "criteria": {
+      "has_redstone": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/lime_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/blue_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/purple_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/orange_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil/fossil_display": {
+    "criteria": {
+      "has_cleaned_fossil": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/cyan_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/magenta_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/flute/red_flute": {
+    "criteria": {
+      "has_flute": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/lime_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/dusk_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/green_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/light_blue_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/red_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/white_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/white_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/cyan_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/juice/yellow_juice": {
+    "criteria": {
+      "has_yellow_juice_berry_3": "2025-11-06 00:02:01 -0300",
+      "has_yellow_juice_berry_2": "2025-11-06 00:02:01 -0300",
+      "has_yellow_juice_berry_1": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil/fossil_machine_tank": {
+    "criteria": {
+      "has_cleaned_fossil": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/badgecase/blackbadgecase": {
+    "criteria": {
+      "has_badgecase": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/leaden_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/pokecenter_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/green_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/gray_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/magenta_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/black_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/brown_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/white_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/red_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/pink_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/white_water_float_dyed": {
+    "criteria": {
+      "has_water_float": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/magenta_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/purple_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/light_blue_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/green_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/quick_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/gray_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/pink_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/household_items/mug_ball": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/orange_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/light_gray_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/sapphire/sapphire_equipment": {
+    "criteria": {
+      "has_sapphire": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/red_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/gray_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300",
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_blank": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/braille/braille_block_period": {
+    "criteria": {
+      "has_braille_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/pokemart_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/blue_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/light_blue_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/purple_healer": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300",
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/magenta_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/light_gray_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/film": {
+    "criteria": {
+      "has_redstone": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/cyan_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/nest_ball_lid": {
+    "criteria": {
+      "has_apricorn": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/folding_chair/light_gray_folding_chair_dyed": {
+    "criteria": {
+      "has_folding_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/cyan_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/brown_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/yellow_healer_dyed": {
+    "criteria": {
+      "has_healer": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/white_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/lime_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/cyan_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/white_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/yellow_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/cyan_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/fast_ball_lid": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300",
+      "has_great_ball": "2025-11-06 00:02:01 -0300",
+      "has_heal_ball": "2025-11-06 00:02:01 -0300",
+      "has_nest_ball": "2025-11-06 00:02:01 -0300",
+      "has_ultra_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/lime_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/mail_box/blue_mail_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/light_blue_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/gray_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil/fossil_machine_base": {
+    "criteria": {
+      "has_cleaned_fossil": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/green_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/light_gray_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/clock/black_clock": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/purple_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/letter_box/light_gray_letter_box": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300",
+      "has_wooden_slabs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/healer/gray_healer": {
+    "criteria": {
+      "has_diamond": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/blue_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/gym_signs/magenta_gym_sign": {
+    "criteria": {
+      "has_dye": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/plasma/plasma_equipment": {
+    "criteria": {
+      "has_crystal": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/green_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/blue_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/trade_machine/trade_holder_left": {
+    "criteria": {
+      "has_poke_ball": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/base/platinum_base": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/chair/brown_chair_dyed": {
+    "criteria": {
+      "has_chair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/red_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/armchair/yellow_armchair_dyed": {
+    "criteria": {
+      "has_armchair": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/juice/green_juice": {
+    "criteria": {
+      "has_green_juice_berry_3": "2025-11-06 00:02:01 -0300",
+      "has_green_juice_berry_1": "2025-11-06 00:02:01 -0300",
+      "has_green_juice_berry_2": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_v": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_w": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_t": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_u": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_r": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/pink_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_s": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_p": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_q": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_z": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/gray_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_x": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_y": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_f": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/computer/cyan_pc": {
+    "criteria": {
+      "has_pc": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_g": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_d": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_e": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_b": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_c": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_a": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_n": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_o": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_l": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_m": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_j": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_k": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/water_float/orange_water_float": {
+    "criteria": {
+      "has_slime": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_h": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/unown/unown_block_i": {
+    "criteria": {
+      "has_unown_block": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/repel": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/base/wooden_base": {
+    "criteria": {
+      "has_slab": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/green_umbrella_dyed": {
+    "criteria": {
+      "has_umbrella": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/rug/white_rug_dyed": {
+    "criteria": {
+      "has_rug": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/black_vending_machine_dyed": {
+    "criteria": {
+      "has_vending_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/household_items/fridge": {
+    "criteria": {
+      "has_aluminum": "2025-11-06 00:02:01 -0300",
+      "has_redstone": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/flute/white_flute": {
+    "criteria": {
+      "has_flute": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/trade_machine/pink_trade_machine_dyed": {
+    "criteria": {
+      "has_trade_machine": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/building_infrastructure/bridge_block": {
+    "criteria": {
+      "has_logs": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/pink_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/umbrella/orange_umbrella": {
+    "criteria": {
+      "has_the_recipe": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/pokeball/lid/feather_ball_lid": {
+    "criteria": {
+      "has_ingot": "2025-11-06 00:02:01 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:types/capture_type_trigger": {
+    "criteria": {
+      "capture_any": "2025-11-06 00:02:13 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:balls/master_ball_capture": {
+    "criteria": {
+      "master_ball_capture": "2025-11-06 00:02:13 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:wild_battle_victories/wild_battle_victory_trigger": {
+    "criteria": {
+      "wild_battle_victory_trigger": "2025-11-06 08:26:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-11-06 08:31:58 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/curry/toast": {
+    "criteria": {
+      "has_bread": "2025-11-06 08:31:58 -0300"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

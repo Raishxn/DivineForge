@@ -5,7 +5,7 @@ import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
-import com.mojang.brigadier.exceptions.CommandSyntaxException; // Import necessário
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
@@ -62,6 +62,8 @@ public class SetTypeCommand {
 
             pokemon.getStats().recalculateStats();
             pokemon.heal();
+
+            pokemon.setNickname(Component.literal("§b[" + type.display_name + "] §r" + pokemon.getSpecies().getName()));
 
             context.getSource().sendSuccess(() -> Component.literal("§aAplicado tipo " + type.display_name + " a " + pokemon.getDisplayName().getString()), true);
             return 1;

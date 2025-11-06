@@ -16,3 +16,32 @@
 /divineforge settype Dev 1 god
 /divineforge settype Dev 1 ember
 /divineforge settype Dev 2 ember
+/pokegive Dev Lucario
+/divineforge settype Dev 2 god
+/pokegive Dev Lucario
+/divineforge settype Dev 3 god
+/pokegive Dev Lucario
+/divineforge settype Dev 4 god
+/pokegive Dev Lucario
+/divineforge settype Dev 4 god
+/divineforge settype Dev 5 god
+/pokegive Dev Lucario
+/divineforge settype Dev 6 god
+/pc
+/pokegive Dev Lucario
+/divineforge settype Dev 2 god
+/pokeheal
+/pokespawn boss mewclones
+/pokespawn boss Mewtwo
+/pokespawn boss Mewtwo !
+/pokespawn Mew boss
+/pokespawn Mew
+/pokespawn Mewtwo boss:ultimate
+/pokeheal
+/pokespawn Miraidon boss:ultimate
+/pokegive Dev Miraidon
+/divineforge settype Dev 3 god
+/time set day
+/gamerule doDaylightCycle false
+/pokespawn Miraidon boss:ultimate
+/pokegive Dev Blastoise
