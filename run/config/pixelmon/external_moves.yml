@@ -1,6 +1,7 @@
-# © PixelmonMod 2012-2025
-# For assistance visit https://pixelmonmod.com/wiki/Config
+# © PixelmonMod 2012-2025
 
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
 # Whether or not players are able to use Move Skills.
 allow-external-moves: true
 # Whether or not players are allowed to use the following Move Skills:

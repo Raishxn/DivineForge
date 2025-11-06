@@ -1,6 +1,7 @@
-# © PixelmonMod 2012-2025
-# For assistance visit https://pixelmonmod.com/wiki/Config
+# © PixelmonMod 2012-2025
 
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
 # Whether or not regular Minecraft mobs like cows and zombies can spawn naturally. DANGER - can kill you while battling.
 #  Monster spawners containing zombies, skeletons, or spiders will be converted into monsters spawners that spawn pigs if this setting is disabled.
 #  Other monster spawners (including ones that spawn hostile mobs like Blazes, cave spiders, or silverfish) will not be affected, nor will spawn eggs.

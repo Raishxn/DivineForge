@@ -8,6 +8,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.server.ServerStartedEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -41,7 +42,8 @@ public class DivineForge {
         instance = this;
 
         reloadConfig();
-
+        com.raishxn.divineforge.data.CustomTypeLoader.load();
+        NeoForge.EVENT_BUS.register(new com.raishxn.divineforge.listener.StatModificationListener());
         bus.addListener(DivineForge::onModLoad);
     }
 

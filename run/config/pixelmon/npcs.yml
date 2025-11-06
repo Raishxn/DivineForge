@@ -1,6 +1,7 @@
-# © PixelmonMod 2012-2025
-# For assistance visit https://pixelmonmod.com/wiki/Config
+# © PixelmonMod 2012-2025
 
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
 # Whether or not traders can be used multiple times. If disabled, traders will disappear after completing their trade offers.
 traders-reusable: false
 # The amount of moves a Move Tutor will have.

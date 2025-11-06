@@ -134,7 +134,8 @@ configurations {
 dependencies {
     implementation("pixelmon:Pixelmon-${minecraft_version}-${pixelmon_version}-universal:${pixelmon_version}")
     interfaceInjectionData("pixelmon:Pixelmon-${minecraft_version}-${pixelmon_version}-universal-interfaceinjection:${pixelmon_version}@json")
-
+    implementation 'org.yaml:snakeyaml:2.2'
+    jarJar 'org.yaml:snakeyaml:2.2'
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

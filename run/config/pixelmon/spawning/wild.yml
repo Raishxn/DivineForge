@@ -1,6 +1,7 @@
-# © PixelmonMod 2012-2025
-# For assistance visit https://pixelmonmod.com/wiki/Config
+# © PixelmonMod 2012-2025
 
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
 # The maximum number of entities (NPC or Pokémon) that can spawn per player. Lower for better performance.
 entities-per-player: 30
 # The maximum number of spawns in a single spawn cycle for a single player.

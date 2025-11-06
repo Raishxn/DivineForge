@@ -1,6 +1,7 @@
-# © PixelmonMod 2012-2025
-# For assistance visit https://pixelmonmod.com/wiki/Config
+# © PixelmonMod 2012-2025
 
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
 # At what level bottlecaps can be used on a Pokemon.
 bottle-cap-level: 50
 # Determines if the player can take multiple photos of a single Pokemon

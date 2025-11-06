@@ -1,6 +1,7 @@
-# © PixelmonMod 2012-2025
-# For assistance visit https://pixelmonmod.com/wiki/Config
+# © PixelmonMod 2012-2025
 
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
 # The type of battle AI that the wild Pokemon will use. The options are:
 #  - RANDOM - The pokemon will use moves randomly
 #  - AGGRESSIVE - The pokemon will use the move that will deal the most damage, and avoid status moves

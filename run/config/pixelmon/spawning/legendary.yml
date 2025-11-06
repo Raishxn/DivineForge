@@ -1,6 +1,7 @@
-# © PixelmonMod 2012-2025
-# For assistance visit https://pixelmonmod.com/wiki/Config
+# © PixelmonMod 2012-2025
 
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
 # How often (in ticks) on average a Legendary Pokémon attempts to spawn. The actual time interval ranges from 60% to 140% of the specified value in this setting. The chance of the spawn attempt succeeding is defined by the legendarySpawnChance setting.
 legendary-spawn-ticks: 25000
 # The chance of a Legendary Pokémon spawn attempt succeeding (0-1) if a viable location has been found for one to spawn. The frequency of this spawn attempt is defined by the legendarySpawnTicks setting.
