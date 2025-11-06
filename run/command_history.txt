@@ -1,0 +1,4 @@
+/spawnlegendary
+/spawnlegendary Dev
+/checkspawns legendary
+/spawnlegendary Dev

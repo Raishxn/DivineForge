@@ -1,0 +1,23 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not visible PokéLoot chests spawn naturally.
+spawn-normal: true
+# Whether or not invisible PokéLoot chests spawn naturally.
+spawn-hidden: true
+# Whether or not Hidden Grottos spawn naturally.
+spawn-grotto: true
+# The frequency at which PokéLoot chests spawn. The Different Modes are as Follows:
+#     - MINIMAL
+#     - NORMAL
+#     - MORE
+#     - EXTREME
+spawn-rate: NORMAL
+# The default setting for how PokéLoot chests act once looted. The Different Modes are as Follows:
+#     - FCFS
+#     - PL
+#     - PU
+#     - TIMED
+spawn-mode: FCFS
+# How often players can loot PokéLoot chests that are set to have timed loot. This value is in hours.
+loot-time: 24
