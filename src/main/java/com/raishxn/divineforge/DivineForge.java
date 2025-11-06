@@ -3,6 +3,7 @@ package com.raishxn.divineforge;
 import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.config.api.yaml.YamlConfigFactory;
 import com.pixelmonmod.tcg.TCG;
+import com.raishxn.divineforge.command.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -16,10 +17,6 @@ import net.neoforged.neoforge.event.server.ServerStoppedEvent;
 import net.neoforged.neoforge.event.server.ServerStoppingEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.raishxn.divineforge.command.CustomHealCommand;
-import com.raishxn.divineforge.command.CustomSpawnCommand;
-import com.raishxn.divineforge.command.ExampleCommand;
-import com.raishxn.divineforge.command.MoreComplicatedCommand;
 import com.raishxn.divineforge.config.DivineForgeConfig;
 import your.domain.path.listener.PixelmonEggHatchExampleListener;
 import your.domain.path.listener.PokemonSpawnExampleListener;
@@ -80,6 +77,8 @@ public class DivineForge {
         // Commands don't have to be registered here
         // However, not registering them here can lead to some hybrids/server software not recognising the commands
         ExampleCommand.register(event.getDispatcher());
+        SetTypeCommand.register(event.getDispatcher());
+        ReloadCommand.register(event.getDispatcher());
         MoreComplicatedCommand.register(event.getDispatcher());
         CustomHealCommand.register(event.getDispatcher());
         CustomSpawnCommand.register(event.getDispatcher());

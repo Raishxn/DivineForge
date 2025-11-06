@@ -1,46 +1,37 @@
 package com.raishxn.divineforge.data;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.raishxn.divineforge.DivineForge;
-import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Constructor;
-import org.yaml.snakeyaml.representer.Representer;
-import org.yaml.snakeyaml.LoaderOptions; // Adicionado import explícito para clareza
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.nio.file.Files;
 
 public class CustomTypeLoader {
 
     private static CustomTypesConfig config;
+    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     public static void load() {
-        File configFile = new File("config/DivineForge/custom_types.yaml");
+        File configFile = new File("config/DivineForge/custom_types.json");
 
         if (!configFile.exists()) {
             createDefault(configFile);
         }
 
-        try (InputStream inputStream = new FileInputStream(configFile)) {
-            // CORREÇÃO AQUI: Usar DumperOptions se necessário, ou o construtor padrão.
-            // Para simplificar e evitar o erro, vamos usar o construtor padrão que geralmente funciona bem.
-            Representer representer = new Representer(new org.yaml.snakeyaml.DumperOptions());
-            representer.getPropertyUtils().setSkipMissingProperties(true);
+        try (Reader reader = new FileReader(configFile)) {
+            // A magia acontece aqui: GSON lê o JSON e converte diretamente para a nossa classe Java
+            config = GSON.fromJson(reader, CustomTypesConfig.class);
 
-            // LoaderOptions é para o Constructor (leitura)
-            LoaderOptions loaderOptions = new LoaderOptions();
-            Yaml yaml = new Yaml(new Constructor(CustomTypesConfig.class, loaderOptions), representer);
-
-            config = yaml.load(inputStream);
             if (config != null && config.types != null) {
-                DivineForge.LOGGER.info("DivineForge: Carregados " + config.types.size() + " tipos customizados.");
+                DivineForge.LOGGER.info("DivineForge: Carregados " + config.types.size() + " tipos customizados (via GSON).");
             } else {
-                DivineForge.LOGGER.warn("DivineForge: Nenhum tipo encontrado ou erro na estrutura do YAML.");
+                DivineForge.LOGGER.warn("DivineForge: Nenhum tipo encontrado no custom_types.json.");
             }
+        } catch (IOException e) {
+            DivineForge.LOGGER.error("Erro ao ler custom_types.json", e);
         } catch (Exception e) {
-            DivineForge.LOGGER.error("Erro ao carregar custom_types.yaml", e);
+            DivineForge.LOGGER.error("Erro ao fazer parse do JSON. Verifique a sintaxe.", e);
         }
     }
 
@@ -49,9 +40,10 @@ public class CustomTypeLoader {
             if (file.getParentFile().mkdirs()) {
                 DivineForge.LOGGER.info("Criado diretório de configuração para DivineForge.");
             }
-            Files.writeString(file.toPath(), "types: {}\n");
+            // Cria um JSON básico válido
+            Files.writeString(file.toPath(), "{\n  \"types\": {}\n}");
         } catch (IOException e) {
-            DivineForge.LOGGER.error("Não foi possível criar o arquivo padrão custom_types.yaml", e);
+            DivineForge.LOGGER.error("Não foi possível criar o ficheiro padrão custom_types.json", e);
         }
     }
 

@@ -2,3 +2,17 @@
 /spawnlegendary Dev
 /checkspawns legendary
 /spawnlegendary Dev
+/divineforge settype Dev 1 God
+/divineforge reload
+/divineforge settype Dev 1 god
+/data get entity e0fd0000-cedd-4383-9f6b-ee4da8ef140c ForgeData
+/data get entity e0fd0000-cedd-4383-9f6b-ee4da8ef140c
+/divineforge reload
+/pokeheal
+/divineforge reload
+/divineforge settype Dev 1 ember
+/divineforge settype Dev 1 god
+/divineforge reload
+/divineforge settype Dev 1 god
+/divineforge settype Dev 1 ember
+/divineforge settype Dev 2 ember

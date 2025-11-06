@@ -5,6 +5,7 @@ import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
+import com.mojang.brigadier.exceptions.CommandSyntaxException; // Import necessário
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
@@ -31,13 +32,7 @@ public class SetTypeCommand {
                                 .then(Commands.argument("slot", IntegerArgumentType.integer(1, 6))
                                         .then(Commands.argument("type", StringArgumentType.word())
                                                 .suggests(SetTypeCommand::suggestTypes)
-                                                .executes(context -> {
-                                                    try {
-                                                        return execute(context, StringArgumentType.getString(context, "type"));
-                                                    } catch (Exception e) {
-                                                        throw new RuntimeException(e);
-                                                    }
-                                                })
+                                                .executes(context -> execute(context, StringArgumentType.getString(context, "type")))
                                         )
                                 )
                         )
@@ -49,13 +44,13 @@ public class SetTypeCommand {
         return SharedSuggestionProvider.suggest(CustomTypeLoader.getConfig().types.keySet(), builder);
     }
 
-    private static int execute(CommandContext<CommandSourceStack> context, String typeId) throws Exception {
+    private static int execute(CommandContext<CommandSourceStack> context, String typeId) throws CommandSyntaxException {
         ServerPlayer player = EntityArgument.getPlayer(context, "player");
         int slot = IntegerArgumentType.getInteger(context, "slot") - 1;
         CustomType type = CustomTypeLoader.getType(typeId);
 
         if (type == null) {
-            context.getSource().sendFailure(Component.literal("Tipo não encontrado: " + typeId));
+            context.getSource().sendFailure(Component.literal("§cErro: Tipo '" + typeId + "' não encontrado."));
             return 0;
         }
 
@@ -63,17 +58,15 @@ public class SetTypeCommand {
         Pokemon pokemon = storage.get(slot);
 
         if (pokemon != null) {
-            // APLICAÇÃO DO TIPO
-            // Aqui vamos salvar o ID do tipo customizado no NBT do Pokémon para persistência
             pokemon.getPersistentData().putString("divineforge:custom_type", type.id);
 
-            // Exemplo de aplicação imediata: Mudar o nickname (temporário, para visualização)
-            pokemon.setNickname(Component.literal("§b[" + type.display_name + "] §r" + pokemon.getSpecies().getName()));
+            pokemon.getStats().recalculateStats();
+            pokemon.heal();
 
-            context.getSource().sendSuccess(() -> Component.literal("Aplicado tipo " + type.display_name + " a " + pokemon.getDisplayName().getString()), true);
+            context.getSource().sendSuccess(() -> Component.literal("§aAplicado tipo " + type.display_name + " a " + pokemon.getDisplayName().getString()), true);
             return 1;
         } else {
-            context.getSource().sendFailure(Component.literal("Slot vazio."));
+            context.getSource().sendFailure(Component.literal("§cSlot vazio."));
             return 0;
         }
     }
