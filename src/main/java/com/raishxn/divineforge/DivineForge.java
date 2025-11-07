@@ -4,6 +4,9 @@ import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.config.api.yaml.YamlConfigFactory;
 import com.pixelmonmod.tcg.TCG;
 import com.raishxn.divineforge.command.*;
+import com.raishxn.divineforge.listener.BattleDamageListener;
+import com.raishxn.divineforge.listener.BattleStartListener;
+import com.raishxn.divineforge.listener.MoveModifierListener;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -45,9 +48,9 @@ public class DivineForge {
     }
 
     public static void onModLoad(FMLCommonSetupEvent event) {
-        // Here is how you register a listener for Pixelmon events
-        // Pixelmon has its own event bus for its events, as does TCG
-        // So any event listener for those mods need to be registered to those specific event buses
+        NeoForge.EVENT_BUS.register(new MoveModifierListener());
+        NeoForge.EVENT_BUS.register(new BattleDamageListener());
+        NeoForge.EVENT_BUS.register(new BattleStartListener());
         Pixelmon.EVENT_BUS.register(new PixelmonEggHatchExampleListener());
         Pixelmon.EVENT_BUS.register(new PokemonSpawnExampleListener());
         TCG.EVENT_BUS.register(new PackOpeningListener());
@@ -82,6 +85,7 @@ public class DivineForge {
         MoreComplicatedCommand.register(event.getDispatcher());
         CustomHealCommand.register(event.getDispatcher());
         CustomSpawnCommand.register(event.getDispatcher());
+
     }
 
     @SubscribeEvent

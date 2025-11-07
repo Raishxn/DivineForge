@@ -2,8 +2,8 @@ package com.raishxn.divineforge.listener;
 
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
 import com.pixelmonmod.pixelmon.entities.pixelmon.PixelmonEntity;
-import com.raishxn.divineforge.data.CustomType;
-import com.raishxn.divineforge.data.CustomTypeLoader;
+import com.raishxn.divineforge.type.DivineType;
+import com.raishxn.divineforge.util.DivineHelper;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -27,53 +27,68 @@ public class StatModificationListener {
         }
 
         Pokemon pokemon = pixelmonEntity.getPokemon();
-        String customTypeId = pokemon.getPersistentData().getString("divineforge:custom_type");
 
-        if (customTypeId == null || customTypeId.isEmpty()) {
+        // --- LÓGICA ATUALIZADA ---
+        DivineType customType = DivineHelper.getDivineType(pokemon);
+        if (customType == null) {
+            // Se não tiver tipo, remove modificadores antigos (limpeza)
+            removeModifier(pixelmonEntity, Attributes.MAX_HEALTH, HP_MODIFIER_ID);
+            removeModifier(pixelmonEntity, Attributes.MOVEMENT_SPEED, SPEED_MODIFIER_ID);
             return;
         }
 
-        CustomType customType = CustomTypeLoader.getType(customTypeId);
-        if (customType == null || customType.stat_modifiers == null) {
-            return;
-        }
+        // --- 1. Modificador de HP ---
+        // Obtém o modificador do Enum (ex: 1.25). O padrão é 1.0
+        double hpModifier = customType.getStatModifier("hp");
+        if (hpModifier != 1.0) {
+            // Converte para o formato do AttributeModifier (ex: 1.25 -> 0.25)
+            double hpMultiplier = hpModifier - 1.0;
 
-        if (customType.stat_modifiers.containsKey("hp")) {
-            double hpMultiplier = customType.stat_modifiers.get("hp") - 1.0;
-
-            if (hpMultiplier != 0) {
-                AttributeInstance maxHealthAttr = pixelmonEntity.getAttribute(Attributes.MAX_HEALTH);
-                if (maxHealthAttr != null) {
-                    maxHealthAttr.removeModifier(HP_MODIFIER_ID);
-
-                    maxHealthAttr.addPermanentModifier(new AttributeModifier(
-                            HP_MODIFIER_ID,
-                            hpMultiplier,
-                            AttributeModifier.Operation.ADD_MULTIPLIED_BASE
-                    ));
-
-                    if (pixelmonEntity.getHealth() > maxHealthAttr.getValue()) {
-                        pixelmonEntity.setHealth((float) maxHealthAttr.getValue());
-                    }
+            AttributeInstance maxHealthAttr = pixelmonEntity.getAttribute(Attributes.MAX_HEALTH);
+            if (maxHealthAttr != null) {
+                // Remove o modificador antigo antes de aplicar o novo
+                maxHealthAttr.removeModifier(HP_MODIFIER_ID);
+                maxHealthAttr.addPermanentModifier(new AttributeModifier(
+                        HP_MODIFIER_ID,
+                        hpMultiplier,
+                        AttributeModifier.Operation.ADD_MULTIPLIED_BASE
+                ));
+                // Corrige a vida atual se ela for maior que o novo máximo
+                if (pixelmonEntity.getHealth() > maxHealthAttr.getValue()) {
+                    pixelmonEntity.setHealth((float) maxHealthAttr.getValue());
                 }
             }
+        } else {
+            // Se o tipo não tiver modificador de HP, remove qualquer um que exista
+            removeModifier(pixelmonEntity, Attributes.MAX_HEALTH, HP_MODIFIER_ID);
         }
 
         // --- 2. Modificador de MOVEMENT SPEED ---
-        if (customType.stat_modifiers.containsKey("speed")) {
-            double speedMultiplier = customType.stat_modifiers.get("speed") - 1.0;
+        double speedModifier = customType.getStatModifier("speed");
+        if (speedModifier != 1.0) {
+            double speedMultiplier = speedModifier - 1.0;
 
-            if (speedMultiplier != 0) {
-                AttributeInstance speedAttr = pixelmonEntity.getAttribute(Attributes.MOVEMENT_SPEED);
-                if (speedAttr != null) {
-                    speedAttr.removeModifier(SPEED_MODIFIER_ID);
-                    speedAttr.addPermanentModifier(new AttributeModifier(
-                            SPEED_MODIFIER_ID,
-                            speedMultiplier,
-                            AttributeModifier.Operation.ADD_MULTIPLIED_BASE
-                    ));
-                }
+            AttributeInstance speedAttr = pixelmonEntity.getAttribute(Attributes.MOVEMENT_SPEED);
+            if (speedAttr != null) {
+                speedAttr.removeModifier(SPEED_MODIFIER_ID);
+                speedAttr.addPermanentModifier(new AttributeModifier(
+                        SPEED_MODIFIER_ID,
+                        speedMultiplier,
+                        AttributeModifier.Operation.ADD_MULTIPLIED_BASE
+                ));
             }
+        } else {
+            removeModifier(pixelmonEntity, Attributes.MOVEMENT_SPEED, SPEED_MODIFIER_ID);
+        }
+    }
+
+    /**
+     * Método auxiliar para remover um modificador de atributo com segurança.
+     */
+    private void removeModifier(PixelmonEntity entity, net.minecraft.core.Holder<net.minecraft.world.entity.ai.attributes.Attribute> attribute, ResourceLocation id) {
+        AttributeInstance instance = entity.getAttribute(attribute);
+        if (instance != null) {
+            instance.removeModifier(id);
         }
     }
 }

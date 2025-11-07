@@ -4,7 +4,8 @@
   "package": "com.raishxn.divineforge.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "PermanentStatsMixin"
+    "PermanentStatsMixin",
+    "StatusImmunityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

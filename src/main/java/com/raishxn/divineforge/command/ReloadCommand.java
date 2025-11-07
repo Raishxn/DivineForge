@@ -3,7 +3,6 @@ package com.raishxn.divineforge.command;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.raishxn.divineforge.DivineForge;
-import com.raishxn.divineforge.data.CustomTypeLoader;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;

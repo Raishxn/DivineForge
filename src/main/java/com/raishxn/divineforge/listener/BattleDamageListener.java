@@ -3,16 +3,13 @@ package com.raishxn.divineforge.listener;
 import com.pixelmonmod.pixelmon.api.battles.AttackCategory;
 import com.pixelmonmod.pixelmon.api.events.battles.AttackEvent;
 import com.pixelmonmod.pixelmon.battles.attacks.Attack;
-import com.pixelmonmod.pixelmon.battles.controller.BattleController;
 import com.pixelmonmod.pixelmon.battles.status.Burn;
 import com.pixelmonmod.pixelmon.entities.pixelmon.PixelmonEntity;
-import com.raishxn.divineforge.data.CustomAbility;
-import com.raishxn.divineforge.data.CustomType;
-import com.raishxn.divineforge.data.CustomTypeLoader;
+import com.raishxn.divineforge.registry.DivineAbility;
+import com.raishxn.divineforge.type.DivineType;
+import com.raishxn.divineforge.util.DivineHelper;
 import net.neoforged.bus.api.SubscribeEvent;
 
-import java.util.List;
-import java.util.Map;
 import java.util.Random;
 
 public class BattleDamageListener {
@@ -29,41 +26,49 @@ public class BattleDamageListener {
 
         double damageMultiplier = 1.0;
         AttackCategory category = attack.getAttackCategory();
-        // Usa a chave de registo para obter o nome do tipo (ex: "fire", "water")
-        String attackType = attack.getType().unwrapKey().get().location().getPath().toLowerCase();
+        String attackType = attack.getActualType().unwrapKey().get().location().getPath().toLowerCase();
+
+        String moveId = attack.getMove().getAttackName().toLowerCase();
+
+        // CORREÇÃO 1: Usar attack.isSoundBased() em vez de attack.getMove().isSoundBased()
+        boolean isSoundMove = moveId.contains("sound") || moveId.contains("voice") || moveId.contains("roar") || attack.isSoundBased();
+        boolean isBeamMove = moveId.contains("beam") || moveId.contains("laser") || moveId.contains("cannon");
+        boolean isBitingMove = moveId.contains("bite") || moveId.contains("fang") || moveId.contains("crunch");
+        boolean isBombMove = moveId.contains("bomb") || moveId.contains("blast") || moveId.contains("explosion");
 
         // =============================================================================
         // --- 1. ATACANTE (Offensive) ---
         // =============================================================================
-        String attackerTypeId = attacker.getPokemon().getPersistentData().getString("divineforge:custom_type");
-        if (attackerTypeId != null && !attackerTypeId.isEmpty()) {
-            CustomType attackerType = CustomTypeLoader.getType(attackerTypeId);
-            if (attackerType != null) {
-                // 1.1 Modificadores de Stat Ofensivos
-                if (attackerType.stat_modifiers != null) {
-                    if (category == AttackCategory.PHYSICAL) {
-                        damageMultiplier *= attackerType.stat_modifiers.getOrDefault("attack", 1.0);
-                    } else if (category == AttackCategory.SPECIAL) {
-                        damageMultiplier *= attackerType.stat_modifiers.getOrDefault("sp_atk", 1.0);
-                    }
+        DivineType attackerType = DivineHelper.getDivineType(attacker.getPokemon());
+        if (attackerType != null) {
+            if (category == AttackCategory.PHYSICAL) {
+                damageMultiplier *= attackerType.getStatModifier("attack");
+            } else if (category == AttackCategory.SPECIAL) {
+                damageMultiplier *= attackerType.getStatModifier("sp_atk");
+            }
+
+            // BOREAL INSTINCT
+            if (attackerType.hasAbility(DivineAbility.BOREAL_INSTINCT)) {
+                // CORREÇÃO 2: Usar .status.type.name() em vez de .status.getType()
+                String statusName = defender.getPokemon().getStatus().type.name().toUpperCase();
+                boolean isTargetFrozen = statusName.contains("FREEZE") || statusName.contains("FROST");
+                if (isTargetFrozen && isBitingMove) {
+                    damageMultiplier *= 1.5;
                 }
-
-                // 1.2 Habilidades Ofensivas
-                if (attackerType.abilities != null) {
-                    for (CustomAbility ability : attackerType.abilities) {
-                        // Gatilho: on_fire_move
-                        if (ability.on_fire_move != null && attackType.equals("fire")) {
-                            // Passamos o BattleController do evento
-                            handleOnFireMove(event, ability.on_fire_move, event.getBattleController());
-
-                            // Se houver buff de dano neste ataque
-                            Object boostObj = ability.on_fire_move.get("temp_attack_boost_percent");
-                            if (boostObj instanceof Number) {
-                                double boost = ((Number) boostObj).doubleValue() / 100.0;
-                                damageMultiplier *= (1.0 + boost);
-                            }
-                        }
-                    }
+            }
+            // BOLD AS BRASS (Ofensivo)
+            if (attackerType.hasAbility(DivineAbility.BOLD_AS_BRASS) && isSoundMove) {
+                damageMultiplier *= 1.5;
+            }
+            // SOLAR FLARE
+            if (attackerType.hasAbility(DivineAbility.SOLAR_FLARE) && attackType.equals("fire")) {
+                damageMultiplier *= 1.5;
+            }
+            // IGNATE
+            if (attackerType.hasAbility(DivineAbility.IGNATE) && attackType.equals("fire")) {
+                if (RANDOM.nextInt(100) < 30) {
+                    // CORREÇÃO 3: Usar defender.getPokemon().setStatus()
+                    defender.getPokemon().setStatus(new Burn());
                 }
             }
         }
@@ -71,74 +76,55 @@ public class BattleDamageListener {
         // =============================================================================
         // --- 2. DEFENSOR (Defensive) ---
         // =============================================================================
-        String defenderTypeId = defender.getPokemon().getPersistentData().getString("divineforge:custom_type");
-        if (defenderTypeId != null && !defenderTypeId.isEmpty()) {
-            CustomType defenderType = CustomTypeLoader.getType(defenderTypeId);
-            if (defenderType != null) {
-                // 2.1 Resistências e Fraquezas
-                if (containsIgnoreCase(defenderType.resistances, "all") || containsIgnoreCase(defenderType.resistances, attackType)) {
-                    damageMultiplier *= 0.5;
-                }
-                if (containsIgnoreCase(defenderType.weaknesses, "all") || containsIgnoreCase(defenderType.weaknesses, attackType)) {
-                    damageMultiplier *= 2.0;
-                }
+        DivineType defenderType = DivineHelper.getDivineType(defender.getPokemon());
+        if (defenderType != null) {
+            damageMultiplier *= defenderType.getEffectivenessFrom(attackType);
 
-                // 2.2 Modificadores de Stat Defensivos
-                if (defenderType.stat_modifiers != null) {
-                    if (category == AttackCategory.PHYSICAL) {
-                        damageMultiplier /= defenderType.stat_modifiers.getOrDefault("defense", 1.0);
-                    } else if (category == AttackCategory.SPECIAL) {
-                        damageMultiplier /= defenderType.stat_modifiers.getOrDefault("sp_def", 1.0);
-                    }
-                }
+            if (category == AttackCategory.PHYSICAL) {
+                damageMultiplier /= defenderType.getStatModifier("defense");
+            } else if (category == AttackCategory.SPECIAL) {
+                damageMultiplier /= defenderType.getStatModifier("sp_def");
+            }
 
-                // 2.3 Habilidades Passivas de Redução de Dano
-                if (defenderType.abilities != null) {
-                    for (CustomAbility ability : defenderType.abilities) {
-                        if (ability.passive != null && ability.passive.containsKey("damage_reduction_percent")) {
-                            Object reductionObj = ability.passive.get("damage_reduction_percent");
-                            if (reductionObj instanceof Number) {
-                                double reductionPercent = ((Number) reductionObj).doubleValue();
-                                damageMultiplier *= (1.0 - (reductionPercent / 100.0));
-                            }
-                        }
-                    }
-                }
+            // BOLD AS BRASS (Defensivo)
+            if (defenderType.hasAbility(DivineAbility.BOLD_AS_BRASS)) {
+                if (isSoundMove) damageMultiplier *= 1.5;
+                if (attackType.equals("fire")) damageMultiplier *= 0.5;
+            }
+            // COVER ME IN DEBRIS
+            if (defenderType.hasAbility(DivineAbility.COVER_ME_IN_DEBRIS) && attackType.equals("fire")) {
+                damageMultiplier = 0.0;
+                // CORREÇÃO 4: Remover event.setCanceled(true)
+            }
+            // ENERGY SHIELD
+            if (defenderType.hasAbility(DivineAbility.ENERGY_SHIELD) && isBeamMove) {
+                damageMultiplier = 0.0;
+                // CORREÇÃO 5: Remover event.setCanceled(true)
+            }
+            // GEMSTONE
+            if (defenderType.hasAbility(DivineAbility.GEMSTONE) && isBombMove) {
+                damageMultiplier = 0.0;
+                // CORREÇÃO 6: Remover event.setCanceled(true)
+            }
+            // COPPER STATE
+            if (defenderType.hasAbility(DivineAbility.COPPER_STATE)) {
+                if (attackType.equals("water")) damageMultiplier *= 2.0;
+                if (attackType.equals("electric") && damageMultiplier == 0.0) damageMultiplier = 1.0;
+            }
+            // SOLAR PROMINENCE
+            if (defenderType.hasAbility(DivineAbility.SOLAR_PROMINENCE)) {
+                damageMultiplier *= 0.7;
             }
         }
 
         // --- 3. APLICAR DANO FINAL ---
+        // CORREÇÃO 7 & 8: Remover !event.isCanceled()
         if (damageMultiplier != 1.0) {
-            double oldDamage = event.damage;
-            double newDamage = oldDamage * damageMultiplier;
-            if (newDamage < 1 && oldDamage > 0 && damageMultiplier > 0) {
+            double newDamage = event.damage * damageMultiplier;
+            if (newDamage < 1 && event.damage > 0 && damageMultiplier > 0) {
                 newDamage = 1;
             }
             event.damage = newDamage;
         }
-    }
-
-    private void handleOnFireMove(AttackEvent.Damage event, Map<String, Object> effectData, BattleController bc) {
-        if (bc == null) return;
-
-        // Efeito: chance_burn
-        Object chanceObj = effectData.get("chance_burn");
-        if (chanceObj instanceof Number) {
-            int chance = ((Number) chanceObj).intValue();
-            // Verifica a chance e se o controlador de batalha é válido
-            if (RANDOM.nextInt(100) < chance) {
-                // Aplica Burn ao alvo do ataque (defender)
-                event.target.setStatus(new Burn());
-                bc.sendToAll(event.target.getNickname() + " foi queimado pela habilidade Embersurge!");
-            }
-        }
-    }
-
-    private boolean containsIgnoreCase(List<String> list, String key) {
-        if (list == null) return false;
-        for (String item : list) {
-            if (item.equalsIgnoreCase(key)) return true;
-        }
-        return false;
     }
 }
