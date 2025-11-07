@@ -18,7 +18,7 @@ public class ReloadCommand {
                             context.getSource().sendSystemMessage(Component.literal("§eA recarregar DivineForge..."));
 
                             try {
-                                CustomTypeLoader.load();
+
 
                                 DivineForge.getInstance().reloadConfig();
 

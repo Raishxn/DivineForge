@@ -1,9 +1,3 @@
-/spawnlegendary
-/spawnlegendary Dev
-/checkspawns legendary
-/spawnlegendary Dev
-/divineforge settype Dev 1 God
-/divineforge reload
 /divineforge settype Dev 1 god
 /data get entity e0fd0000-cedd-4383-9f6b-ee4da8ef140c ForgeData
 /data get entity e0fd0000-cedd-4383-9f6b-ee4da8ef140c
@@ -45,3 +39,12 @@
 /gamerule doDaylightCycle false
 /pokespawn Miraidon boss:ultimate
 /pokegive Dev Blastoise
+/pokegive Dev Charizard
+/movelist
+/moveset
+/movelist Charizard
+/moveset "Cinder Barrage"
+//moveset Cinder Barrage
+/pokesee
+/teach Dev 5 cinder_barrage
+/teach Dev 5 electro_shot

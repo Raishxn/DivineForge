@@ -42,7 +42,6 @@ public class DivineForge {
         instance = this;
 
         reloadConfig();
-        com.raishxn.divineforge.data.CustomTypeLoader.load();
         NeoForge.EVENT_BUS.register(new com.raishxn.divineforge.listener.StatModificationListener());
         bus.addListener(DivineForge::onModLoad);
     }

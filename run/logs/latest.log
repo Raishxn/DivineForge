@@ -1,13 +1,13 @@
-[06nov.2025 22:20:44.191] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.170, --assetIndex, 17, --assetsDir, C:\\Users\\Admin\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.170, --fml.neoFormVersion, 20240808.144430]
-[06nov.2025 22:20:44.194] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.8+9-LTS
-[06nov.2025 22:20:44.195] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[06nov.2025 22:20:44.332] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[06nov.2025 22:20:44.476] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[06nov.2025 22:20:44.689] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[06nov.2025 22:20:44.847] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[06nov.2025 22:20:45.140] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.42, NVIDIA Corporation
-[06nov.2025 22:20:45.337] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[06nov.2025 22:20:45.339] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[07nov.2025 00:40:23.489] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.170, --assetIndex, 17, --assetsDir, C:\\Users\\Admin\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.170, --fml.neoFormVersion, 20240808.144430]
+[07nov.2025 00:40:23.498] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[07nov.2025 00:40:23.499] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.8 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[07nov.2025 00:40:23.625] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[07nov.2025 00:40:23.720] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[07nov.2025 00:40:23.864] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[07nov.2025 00:40:23.967] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[07nov.2025 00:40:24.202] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.42, NVIDIA Corporation
+[07nov.2025 00:40:24.389] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[07nov.2025 00:40:24.390] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -15,563 +15,536 @@
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.170 (neoforge)
 		Pixelmon 9.3.9 (pixelmon)
-[06nov.2025 22:20:47.005] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[06nov.2025 22:20:47.036] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.170, --gameDir, ., --assetsDir, C:\Users\Admin\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[06nov.2025 22:20:47.268] [main/WARN] [mixin/]: Reference map 'pixelmon.refmap.json' for mixins.pixelmon.json could not be read. If this is a development environment you can ignore this message
-[06nov.2025 22:20:48.125] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[06nov.2025 22:20:49.521] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 360 milliseconds
-[06nov.2025 22:20:54.671] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06nov.2025 22:20:54.671] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06nov.2025 22:20:54.674] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06nov.2025 22:20:54.675] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06nov.2025 22:20:54.676] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06nov.2025 22:20:54.796] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/IdeaProjects/DivineForge/build/moddev/artifacts/neoforge-21.1.170.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[06nov.2025 22:20:54.797] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/IdeaProjects/DivineForge/build/moddev/artifacts/neoforge-21.1.170.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[06nov.2025 22:20:54.826] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[06nov.2025 22:20:54.834] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[06nov.2025 22:20:54.905] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[06nov.2025 22:20:55.119] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.120] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.120] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.120] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.120] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.120] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.121] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.121] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.121] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[06nov.2025 22:20:55.136] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.170, for MC 1.21.1
-[06nov.2025 22:20:55.540] [modloading-worker-0/INFO] [divineforge/]: DivineForge: Carregados 2 tipos customizados (via GSON).
-[06nov.2025 22:20:58.083] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:20:58.084] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:20:58.085] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:20:58.888] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [divineforge]
-[06nov.2025 22:20:59.103] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/divineforge, mod/neoforge, mod/pixelmon,tcg
-[06nov.2025 22:20:59.111] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loading Pixelmon version 9.3.9
-[06nov.2025 22:20:59.115] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loaded Advancements
-[06nov.2025 22:20:59.201] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
-[06nov.2025 22:20:59.218] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
-[06nov.2025 22:20:59.226] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
-[06nov.2025 22:20:59.323] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Starting version check at https://ogn.pixelmonmod.com/v/update.json
-[06nov.2025 22:20:59.339] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[06nov.2025 22:20:59.440] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[06nov.2025 22:21:00.099] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.105] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.112] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.121] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.132] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.134] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.162] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.176] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.181] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.185] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.187] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.194] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.221] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.226] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.235] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.239] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.245] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.250] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.256] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.266] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.270] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.277] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.280] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.281] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.282] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.283] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.284] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.287] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.288] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.289] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractInteractionsEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.290] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBattleEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.290] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.291] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
-[06nov.2025 22:21:00.357] [Worker-Main-14/INFO] [Pixelmon TCG/]: Loading TCG version 9.3.9
-[06nov.2025 22:21:00.390] [Worker-Main-14/INFO] [Pixelmon TCG/]: Initializing Pixelmon TCG v9.3.9
-[06nov.2025 22:21:00.548] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Found status: UP_TO_DATE Current: 9.3.9 Target: null
-[06nov.2025 22:21:00.554] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Starting version check at https://ogn.pixelmonmod.com/v/update.json
-[06nov.2025 22:21:00.575] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Found status: UP_TO_DATE Current: 9.3.9 Target: null
-[06nov.2025 22:21:01.033] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/yellow_floor_gym_sign' referenced from: pixelmon:item/yellow_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/yellow_floor_gym_sign.json
-[06nov.2025 22:21:01.036] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/gray_floor_gym_sign' referenced from: pixelmon:item/gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/gray_floor_gym_sign.json
-[06nov.2025 22:21:01.037] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/blue_floor_gym_sign' referenced from: pixelmon:item/blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/blue_floor_gym_sign.json
-[06nov.2025 22:21:01.038] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/brown_floor_gym_sign' referenced from: pixelmon:item/brown_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/brown_floor_gym_sign.json
-[06nov.2025 22:21:01.038] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/no_item' referenced from: pixelmon:item/no_item: java.io.FileNotFoundException: pixelmon:models/item/no_item.json
-[06nov.2025 22:21:01.038] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/purple_floor_gym_sign' referenced from: pixelmon:item/purple_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/purple_floor_gym_sign.json
-[06nov.2025 22:21:01.040] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/black_floor_gym_sign' referenced from: pixelmon:item/black_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/black_floor_gym_sign.json
-[06nov.2025 22:21:01.040] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/magenta_floor_gym_sign' referenced from: pixelmon:item/magenta_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/magenta_floor_gym_sign.json
-[06nov.2025 22:21:01.042] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/light_gray_floor_gym_sign' referenced from: pixelmon:item/light_gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_gray_floor_gym_sign.json
-[06nov.2025 22:21:01.044] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/green_floor_gym_sign' referenced from: pixelmon:item/green_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/green_floor_gym_sign.json
-[06nov.2025 22:21:01.044] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/light_blue_floor_gym_sign' referenced from: pixelmon:item/light_blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_blue_floor_gym_sign.json
-[06nov.2025 22:21:01.046] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/pink_floor_gym_sign' referenced from: pixelmon:item/pink_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/pink_floor_gym_sign.json
-[06nov.2025 22:21:01.047] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/white_floor_gym_sign' referenced from: pixelmon:item/white_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/white_floor_gym_sign.json
-[06nov.2025 22:21:01.048] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/red_floor_gym_sign' referenced from: pixelmon:item/red_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/red_floor_gym_sign.json
-[06nov.2025 22:21:01.052] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'tcg:item/battle_spectator' referenced from: tcg:item/battle_spectator: java.io.FileNotFoundException: tcg:models/item/battle_spectator.json
-[06nov.2025 22:21:01.053] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/lime_floor_gym_sign' referenced from: pixelmon:item/lime_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/lime_floor_gym_sign.json
-[06nov.2025 22:21:01.056] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/orange_floor_gym_sign' referenced from: pixelmon:item/orange_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/orange_floor_gym_sign.json
-[06nov.2025 22:21:01.056] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/cyan_floor_gym_sign' referenced from: pixelmon:item/cyan_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/cyan_floor_gym_sign.json
-[06nov.2025 22:21:04.719] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture pixelmon:block/placeholder with size 1x1 limits mip level from 4 to 0
-[06nov.2025 22:21:06.362] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:fossil_display#facing=north,multipos=bottom:
+[07nov.2025 00:40:25.377] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[07nov.2025 00:40:25.392] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.170, --gameDir, ., --assetsDir, C:\Users\Admin\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[07nov.2025 00:40:25.453] [main/WARN] [mixin/]: Reference map 'pixelmon.refmap.json' for mixins.pixelmon.json could not be read. If this is a development environment you can ignore this message
+[07nov.2025 00:40:26.085] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07nov.2025 00:40:27.448] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 405 milliseconds
+[07nov.2025 00:40:31.617] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07nov.2025 00:40:31.618] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07nov.2025 00:40:31.620] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07nov.2025 00:40:31.621] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07nov.2025 00:40:31.622] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07nov.2025 00:40:31.715] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/IdeaProjects/DivineForge/build/moddev/artifacts/neoforge-21.1.170.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[07nov.2025 00:40:31.715] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/IdeaProjects/DivineForge/build/moddev/artifacts/neoforge-21.1.170.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[07nov.2025 00:40:31.735] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07nov.2025 00:40:31.741] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07nov.2025 00:40:31.806] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[07nov.2025 00:40:31.965] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.966] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.966] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.968] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.968] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.968] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.968] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.968] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.969] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[07nov.2025 00:40:31.983] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.170, for MC 1.21.1
+[07nov.2025 00:40:34.080] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:34.081] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:34.081] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:34.665] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [divineforge]
+[07nov.2025 00:40:34.853] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/divineforge, mod/neoforge, mod/pixelmon,tcg
+[07nov.2025 00:40:34.860] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loading Pixelmon version 9.3.9
+[07nov.2025 00:40:34.863] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loaded Advancements
+[07nov.2025 00:40:34.881] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[07nov.2025 00:40:34.885] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[07nov.2025 00:40:34.889] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[07nov.2025 00:40:34.919] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[07nov.2025 00:40:34.939] [Worker-Main-14/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[07nov.2025 00:40:35.051] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[07nov.2025 00:40:35.194] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.195] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.196] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.196] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.197] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.197] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.198] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.199] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.199] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.200] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.200] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.201] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.218] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.220] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.222] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.224] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.228] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.231] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.235] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.238] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.239] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.240] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.241] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.245] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.246] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.248] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.249] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.250] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.252] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.254] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractInteractionsEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.256] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBattleEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.258] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.265] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[07nov.2025 00:40:35.315] [Worker-Main-3/INFO] [Pixelmon TCG/]: Loading TCG version 9.3.9
+[07nov.2025 00:40:35.342] [Worker-Main-3/INFO] [Pixelmon TCG/]: Initializing Pixelmon TCG v9.3.9
+[07nov.2025 00:40:35.411] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Found status: UP_TO_DATE Current: 9.3.9 Target: null
+[07nov.2025 00:40:35.417] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[07nov.2025 00:40:35.444] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Found status: UP_TO_DATE Current: 9.3.9 Target: null
+[07nov.2025 00:40:36.111] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/yellow_floor_gym_sign' referenced from: pixelmon:item/yellow_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/yellow_floor_gym_sign.json
+[07nov.2025 00:40:36.115] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/gray_floor_gym_sign' referenced from: pixelmon:item/gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/gray_floor_gym_sign.json
+[07nov.2025 00:40:36.125] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/blue_floor_gym_sign' referenced from: pixelmon:item/blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/blue_floor_gym_sign.json
+[07nov.2025 00:40:36.127] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/brown_floor_gym_sign' referenced from: pixelmon:item/brown_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/brown_floor_gym_sign.json
+[07nov.2025 00:40:36.127] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/no_item' referenced from: pixelmon:item/no_item: java.io.FileNotFoundException: pixelmon:models/item/no_item.json
+[07nov.2025 00:40:36.128] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/purple_floor_gym_sign' referenced from: pixelmon:item/purple_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/purple_floor_gym_sign.json
+[07nov.2025 00:40:36.129] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/black_floor_gym_sign' referenced from: pixelmon:item/black_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/black_floor_gym_sign.json
+[07nov.2025 00:40:36.130] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/magenta_floor_gym_sign' referenced from: pixelmon:item/magenta_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/magenta_floor_gym_sign.json
+[07nov.2025 00:40:36.132] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/light_gray_floor_gym_sign' referenced from: pixelmon:item/light_gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_gray_floor_gym_sign.json
+[07nov.2025 00:40:36.133] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/green_floor_gym_sign' referenced from: pixelmon:item/green_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/green_floor_gym_sign.json
+[07nov.2025 00:40:36.134] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/light_blue_floor_gym_sign' referenced from: pixelmon:item/light_blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_blue_floor_gym_sign.json
+[07nov.2025 00:40:36.135] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/pink_floor_gym_sign' referenced from: pixelmon:item/pink_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/pink_floor_gym_sign.json
+[07nov.2025 00:40:36.136] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/white_floor_gym_sign' referenced from: pixelmon:item/white_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/white_floor_gym_sign.json
+[07nov.2025 00:40:36.136] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/red_floor_gym_sign' referenced from: pixelmon:item/red_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/red_floor_gym_sign.json
+[07nov.2025 00:40:36.140] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'tcg:item/battle_spectator' referenced from: tcg:item/battle_spectator: java.io.FileNotFoundException: tcg:models/item/battle_spectator.json
+[07nov.2025 00:40:36.141] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/lime_floor_gym_sign' referenced from: pixelmon:item/lime_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/lime_floor_gym_sign.json
+[07nov.2025 00:40:36.144] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/orange_floor_gym_sign' referenced from: pixelmon:item/orange_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/orange_floor_gym_sign.json
+[07nov.2025 00:40:36.144] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/cyan_floor_gym_sign' referenced from: pixelmon:item/cyan_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/cyan_floor_gym_sign.json
+[07nov.2025 00:40:36.310] [Worker-Main-11/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture pixelmon:block/placeholder with size 1x1 limits mip level from 4 to 0
+[07nov.2025 00:40:37.341] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:fossil_display#facing=north,multipos=bottom:
     minecraft:textures/atlas/blocks.png:pixelmon:block/fossil_display
-[06nov.2025 22:21:06.362] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:trash_can#:
+[07nov.2025 00:40:37.342] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:trash_can#:
     minecraft:textures/atlas/blocks.png:pixelmon:block/trash_can
-[06nov.2025 22:21:06.362] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:zygarde_cell#orientation=east,rotation=south:
+[07nov.2025 00:40:37.342] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:zygarde_cell#orientation=east,rotation=south:
     minecraft:textures/atlas/blocks.png:pixelmon:block/cell/zygarde_cell
-[06nov.2025 22:21:06.362] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:fossil_machine#facing=east,multipos=bottom:
+[07nov.2025 00:40:37.342] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:fossil_machine#facing=east,multipos=bottom:
     minecraft:textures/atlas/blocks.png:pixelmon:block/fossil_machine
-[06nov.2025 22:21:06.363] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model tcg:battle_spectator#facing=west,multipos=base:
+[07nov.2025 00:40:37.342] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model tcg:battle_spectator#facing=west,multipos=base:
     minecraft:textures/atlas/blocks.png:minecraft:block/anvil_base
-[06nov.2025 22:21:06.363] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:jade_orb#facing=east:
+[07nov.2025 00:40:37.342] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:jade_orb#facing=east:
     minecraft:textures/atlas/blocks.png:pixelmon:block/orbs/delta_orb
-[06nov.2025 22:21:06.363] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:zygarde_core#orientation=south,rotation=down:
+[07nov.2025 00:40:37.342] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:zygarde_core#orientation=south,rotation=down:
     minecraft:textures/atlas/blocks.png:pixelmon:block/cell/zygarde_core
-[06nov.2025 22:21:06.979] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[06nov.2025 22:21:06.979] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[06nov.2025 22:21:07.095] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (3- High Definition Audio Device)
-[06nov.2025 22:21:07.096] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[06nov.2025 22:21:07.244] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
-[06nov.2025 22:21:07.395] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[06nov.2025 22:21:07.395] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[06nov.2025 22:21:07.396] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[06nov.2025 22:21:07.397] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[06nov.2025 22:21:07.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[06nov.2025 22:21:07.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[06nov.2025 22:21:07.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[06nov.2025 22:21:07.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[06nov.2025 22:21:07.497] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/fossil_machine/fossil_extractor_glass.pqc has no animations!
-[06nov.2025 22:21:07.524] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/reassembly_unit/reassembly_unit_glass.pqc has no animations!
-[06nov.2025 22:21:07.533] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/infuser/infuser_glass.pqc has no animations!
-[06nov.2025 22:21:07.539] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
-[06nov.2025 22:21:07.540] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
-[06nov.2025 22:21:07.540] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
-[06nov.2025 22:21:07.540] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
-[06nov.2025 22:21:07.541] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
-[06nov.2025 22:21:07.542] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
-[06nov.2025 22:21:07.543] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
-[06nov.2025 22:21:07.543] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
-[06nov.2025 22:21:07.543] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
-[06nov.2025 22:21:07.543] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
-[06nov.2025 22:21:07.543] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
-[06nov.2025 22:21:07.543] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
-[06nov.2025 22:21:07.543] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
-[06nov.2025 22:21:07.544] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
-[06nov.2025 22:21:07.545] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
-[06nov.2025 22:21:07.546] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
-[06nov.2025 22:21:07.547] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
-[06nov.2025 22:21:07.548] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
-[06nov.2025 22:21:07.549] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
-[06nov.2025 22:21:07.550] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
-[06nov.2025 22:21:07.551] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
-[06nov.2025 22:21:07.552] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
-[06nov.2025 22:21:07.694] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/fluff/clouds.pqc has no animations!
-[06nov.2025 22:21:07.736] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/shiny_charm.pqc has no animations!
-[06nov.2025 22:21:07.752] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/oval_charm.pqc has no animations!
-[06nov.2025 22:21:07.782] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/exp_charm.pqc has no animations!
-[06nov.2025 22:21:07.799] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/catching_charm.pqc has no animations!
-[06nov.2025 22:21:07.821] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/mark_charm.pqc has no animations!
-[06nov.2025 22:21:07.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
-[06nov.2025 22:21:07.828] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[06nov.2025 22:21:07.828] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[06nov.2025 22:21:07.829] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[06nov.2025 22:21:07.829] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[06nov.2025 22:21:07.973] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[06nov.2025 22:21:08.167] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find sampler named Sampler1 in the specified shader program.
-[06nov.2025 22:21:08.168] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find sampler named Sampler2 in the specified shader program.
-[06nov.2025 22:21:08.168] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named IViewRotMat in the specified shader program.
-[06nov.2025 22:21:08.168] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named FogStart in the specified shader program.
-[06nov.2025 22:21:08.168] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named overlay in the specified shader program.
-[06nov.2025 22:21:08.169] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named lighting in the specified shader program.
-[06nov.2025 22:21:08.179] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_cutout_no_cull could not find uniform named IViewRotMat in the specified shader program.
-[06nov.2025 22:21:08.225] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find sampler named Sampler1 in the specified shader program.
-[06nov.2025 22:21:08.226] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find sampler named Sampler2 in the specified shader program.
-[06nov.2025 22:21:08.226] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find uniform named Light1_Direction in the specified shader program.
-[06nov.2025 22:21:08.251] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find sampler named Sampler0 in the specified shader program.
-[06nov.2025 22:21:08.251] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find sampler named Sampler1 in the specified shader program.
-[06nov.2025 22:21:08.251] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find sampler named Sampler2 in the specified shader program.
-[06nov.2025 22:21:08.253] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named ColorModulator in the specified shader program.
-[06nov.2025 22:21:08.253] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named Light0_Direction in the specified shader program.
-[06nov.2025 22:21:08.253] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named Light1_Direction in the specified shader program.
-[06nov.2025 22:21:08.253] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named FogStart in the specified shader program.
-[06nov.2025 22:21:08.254] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named RenderColor in the specified shader program.
-[06nov.2025 22:21:08.255] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named u_textureOffset in the specified shader program.
-[06nov.2025 22:21:08.255] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named u_textureScale in the specified shader program.
-[06nov.2025 22:21:08.256] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named u_textureRotation in the specified shader program.
-[06nov.2025 22:21:08.256] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named overlay in the specified shader program.
-[06nov.2025 22:21:08.256] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named lighting in the specified shader program.
-[06nov.2025 22:21:08.276] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:flat could not find uniform named WorldNormalMatrix in the specified shader program.
-[06nov.2025 22:21:08.316] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[06nov.2025 22:21:13.506] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag pixelmon:spawning/drowned as it is missing following references: 
+[07nov.2025 00:40:37.734] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[07nov.2025 00:40:37.734] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[07nov.2025 00:40:37.769] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (3- High Definition Audio Device)
+[07nov.2025 00:40:37.770] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[07nov.2025 00:40:37.860] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[07nov.2025 00:40:37.916] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[07nov.2025 00:40:37.916] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07nov.2025 00:40:37.916] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07nov.2025 00:40:37.917] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[07nov.2025 00:40:37.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[07nov.2025 00:40:37.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07nov.2025 00:40:37.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07nov.2025 00:40:37.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07nov.2025 00:40:37.951] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[07nov.2025 00:40:37.951] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[07nov.2025 00:40:37.952] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[07nov.2025 00:40:37.952] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[07nov.2025 00:40:37.952] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[07nov.2025 00:40:37.952] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[07nov.2025 00:40:37.952] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[07nov.2025 00:40:37.952] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[07nov.2025 00:40:37.953] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[07nov.2025 00:40:37.953] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[07nov.2025 00:40:37.953] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[07nov.2025 00:40:37.953] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[07nov.2025 00:40:37.953] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[07nov.2025 00:40:37.953] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[07nov.2025 00:40:37.954] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[07nov.2025 00:40:37.955] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[07nov.2025 00:40:37.955] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[07nov.2025 00:40:37.955] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[07nov.2025 00:40:37.955] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[07nov.2025 00:40:37.955] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[07nov.2025 00:40:37.955] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[07nov.2025 00:40:37.956] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[07nov.2025 00:40:37.957] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[07nov.2025 00:40:37.958] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[07nov.2025 00:40:37.959] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[07nov.2025 00:40:37.960] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[07nov.2025 00:40:37.961] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[07nov.2025 00:40:37.962] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[07nov.2025 00:40:37.963] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[07nov.2025 00:40:37.963] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[07nov.2025 00:40:37.963] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[07nov.2025 00:40:37.974] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/fossil_machine/fossil_extractor_glass.pqc has no animations!
+[07nov.2025 00:40:37.983] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/infuser/infuser_glass.pqc has no animations!
+[07nov.2025 00:40:37.999] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/reassembly_unit/reassembly_unit_glass.pqc has no animations!
+[07nov.2025 00:40:38.043] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/fluff/clouds.pqc has no animations!
+[07nov.2025 00:40:38.067] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/shiny_charm.pqc has no animations!
+[07nov.2025 00:40:38.078] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/oval_charm.pqc has no animations!
+[07nov.2025 00:40:38.087] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/exp_charm.pqc has no animations!
+[07nov.2025 00:40:38.098] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/catching_charm.pqc has no animations!
+[07nov.2025 00:40:38.111] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/mark_charm.pqc has no animations!
+[07nov.2025 00:40:38.111] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[07nov.2025 00:40:38.112] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07nov.2025 00:40:38.112] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07nov.2025 00:40:38.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[07nov.2025 00:40:38.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[07nov.2025 00:40:38.129] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[07nov.2025 00:40:38.161] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find sampler named Sampler1 in the specified shader program.
+[07nov.2025 00:40:38.161] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find sampler named Sampler2 in the specified shader program.
+[07nov.2025 00:40:38.161] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named IViewRotMat in the specified shader program.
+[07nov.2025 00:40:38.161] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named FogStart in the specified shader program.
+[07nov.2025 00:40:38.161] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named overlay in the specified shader program.
+[07nov.2025 00:40:38.161] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named lighting in the specified shader program.
+[07nov.2025 00:40:38.164] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_cutout_no_cull could not find uniform named IViewRotMat in the specified shader program.
+[07nov.2025 00:40:38.175] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find sampler named Sampler1 in the specified shader program.
+[07nov.2025 00:40:38.175] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find sampler named Sampler2 in the specified shader program.
+[07nov.2025 00:40:38.175] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find uniform named Light1_Direction in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find sampler named Sampler0 in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find sampler named Sampler1 in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find sampler named Sampler2 in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named ColorModulator in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named Light0_Direction in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named Light1_Direction in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named FogStart in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named RenderColor in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named u_textureOffset in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named u_textureScale in the specified shader program.
+[07nov.2025 00:40:38.177] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named u_textureRotation in the specified shader program.
+[07nov.2025 00:40:38.178] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named overlay in the specified shader program.
+[07nov.2025 00:40:38.178] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named lighting in the specified shader program.
+[07nov.2025 00:40:38.181] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:flat could not find uniform named WorldNormalMatrix in the specified shader program.
+[07nov.2025 00:40:38.191] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[07nov.2025 00:41:09.038] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag pixelmon:spawning/drowned as it is missing following references: 
 	pixelmon:drowned_crimson (from mod/pixelmon,tcg)
 	pixelmon:drowned_dark (from mod/pixelmon,tcg)
 	pixelmon:drowned_warm (from mod/pixelmon,tcg)
-[06nov.2025 22:21:13.688] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2480 recipes
-[06nov.2025 22:21:13.890] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2486 advancements
-[06nov.2025 22:21:14.581] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
-[06nov.2025 22:21:14.699] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
-[06nov.2025 22:21:15.500] [Render thread/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
-[06nov.2025 22:21:26.713] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[06nov.2025 22:21:26.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06nov.2025 22:21:27.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06nov.2025 22:21:27.234] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06nov.2025 22:21:27.309] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[06nov.2025 22:21:27.310] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
+[07nov.2025 00:41:09.152] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2480 recipes
+[07nov.2025 00:41:09.314] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2486 advancements
+[07nov.2025 00:41:09.860] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[07nov.2025 00:41:09.925] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
+[07nov.2025 00:41:10.563] [Render thread/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
+[07nov.2025 00:41:20.542] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[07nov.2025 00:41:20.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07nov.2025 00:41:20.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07nov.2025 00:41:21.190] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07nov.2025 00:41:21.232] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[07nov.2025 00:41:21.232] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 271 ms
+[07nov.2025 00:41:21.235] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
    Dev warning - Legacy Tags detected. Please migrate your 'forge' namespace tags to the 'c' namespace! See net.neoforged.neoforge.common.Tags.java for all tags.
    NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
     And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
    You can disable this message in NeoForge's common config by setting `logLegacyTagWarnings` to "SILENCED" or see individual tags with "DEV_VERBOSE".
 
-[06nov.2025 22:21:27.312] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 229 ms
-[06nov.2025 22:21:27.316] [Server thread/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Datapacks found: vanilla,mod_data,mod/divineforge,mod/neoforge,mod/pixelmon,tcg
-[06nov.2025 22:21:27.423] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[06nov.2025 22:21:29.098] [Netty Local Client IO #0/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
-[06nov.2025 22:21:29.304] [Netty Local Client IO #0/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
-[06nov.2025 22:21:29.412] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: equal Weight: 0
-[06nov.2025 22:21:29.412] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: uncommon Weight: 40
-[06nov.2025 22:21:29.413] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: haunted Weight: 0
-[06nov.2025 22:21:29.413] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: common Weight: 50
-[06nov.2025 22:21:29.414] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: legendary Weight: 10
-[06nov.2025 22:21:29.414] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: ultimate Weight: 1
-[06nov.2025 22:21:29.414] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: rare Weight: 30
-[06nov.2025 22:21:29.414] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: notboss Weight: 0
-[06nov.2025 22:21:29.414] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: epic Weight: 20
-[06nov.2025 22:21:29.414] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: drowned Weight: 0
-[06nov.2025 22:21:29.438] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
-[06nov.2025 22:21:31.150] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ab4eb4bb] logged in with entity id 165 at (-7.512621557798934, -55.384898301837374, 21.571793642465263)
-[06nov.2025 22:21:31.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06nov.2025 22:21:31.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ★Pixelmon Dev★ Dev has joined!
-[06nov.2025 22:21:31.979] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ★Pixelmon Dev★ Dev has joined!
-[06nov.2025 22:21:32.029] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 454 advancements
-[06nov.2025 22:21:32.918] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06nov.2025 22:21:35.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06nov.2025 22:21:35.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:debug
-[06nov.2025 22:21:35.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:ultra_space
-[06nov.2025 22:21:35.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06nov.2025 22:21:35.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06nov.2025 22:21:36.184] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3217ms or 64 ticks behind
-[06nov.2025 22:21:36.193] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 1 0
-[06nov.2025 22:21:37.526] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 0
-[06nov.2025 22:21:38.672] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 12
-[06nov.2025 22:21:39.770] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 12
-[06nov.2025 22:21:39.770] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
-[06nov.2025 22:21:39.771] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 12
-[06nov.2025 22:21:39.771] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:21:40.872] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 4
-[06nov.2025 22:21:41.970] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 1 12
-[06nov.2025 22:21:43.072] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 12
-[06nov.2025 22:21:43.072] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
-[06nov.2025 22:21:44.171] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 5
-[06nov.2025 22:21:44.172] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
-[06nov.2025 22:21:45.271] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 14
-[06nov.2025 22:21:45.272] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 0
-[06nov.2025 22:21:45.272] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 14
-[06nov.2025 22:21:45.272] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:21:46.373] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 1
-[06nov.2025 22:21:46.374] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 1
-[06nov.2025 22:21:47.471] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 8
-[06nov.2025 22:21:47.471] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 0
-[06nov.2025 22:21:47.472] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:21:48.571] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
-[06nov.2025 22:21:48.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:21:50.521] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 10 3
-[06nov.2025 22:21:51.621] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 15
-[06nov.2025 22:21:51.621] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 0
-[06nov.2025 22:21:51.622] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
-[06nov.2025 22:21:51.622] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:21:52.720] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 11
-[06nov.2025 22:21:52.721] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 0
-[06nov.2025 22:21:53.821] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
-[06nov.2025 22:21:56.871] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 4
-[06nov.2025 22:21:57.971] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 4
-[06nov.2025 22:22:01.822] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 4
-[06nov.2025 22:22:03.021] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 6
-[06nov.2025 22:22:03.021] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 0
-[06nov.2025 22:22:09.821] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 5
-[06nov.2025 22:22:09.822] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
-[06nov.2025 22:22:12.871] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 12
-[06nov.2025 22:22:12.871] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 0
-[06nov.2025 22:22:12.871] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 12
-[06nov.2025 22:22:12.872] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:22:13.971] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 1
-[06nov.2025 22:22:15.821] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
-[06nov.2025 22:22:15.822] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:22:16.922] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 0
-[06nov.2025 22:22:18.022] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 1
-[06nov.2025 22:22:18.023] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 1
-[06nov.2025 22:22:19.972] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 4
-[06nov.2025 22:22:19.973] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 4
-[06nov.2025 22:22:22.222] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 8
-[06nov.2025 22:22:22.222] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
-[06nov.2025 22:22:22.222] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:22:24.420] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 13
-[06nov.2025 22:22:24.421] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 0
-[06nov.2025 22:22:28.772] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 9
-[06nov.2025 22:22:28.773] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 9
-[06nov.2025 22:22:28.773] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:22:34.421] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 12
-[06nov.2025 22:22:34.421] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 12
-[06nov.2025 22:22:37.473] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 6
-[06nov.2025 22:22:37.473] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 0
-[06nov.2025 22:22:37.474] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 6
-[06nov.2025 22:22:37.474] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:22:40.420] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
-[06nov.2025 22:22:41.520] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 7
-[06nov.2025 22:22:41.521] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
-[06nov.2025 22:22:41.521] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 7
-[06nov.2025 22:22:41.521] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:22:44.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 3
-[06nov.2025 22:22:44.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 3
-[06nov.2025 22:23:04.921] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
-[06nov.2025 22:23:04.922] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:23:06.023] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 14
-[06nov.2025 22:23:06.023] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:23:09.073] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 7
-[06nov.2025 22:23:09.074] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 7
-[06nov.2025 22:23:14.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 13
-[06nov.2025 22:23:14.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
-[06nov.2025 22:23:14.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 13
-[06nov.2025 22:23:14.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:23:15.773] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 8
-[06nov.2025 22:23:15.773] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 0
-[06nov.2025 22:23:15.773] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 8
-[06nov.2025 22:23:15.773] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:23:17.272] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 10
-[06nov.2025 22:23:17.273] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 0
-[06nov.2025 22:23:17.273] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 10
-[06nov.2025 22:23:17.273] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:23:18.371] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 0
-[06nov.2025 22:23:19.472] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 10
-[06nov.2025 22:23:20.572] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 14
-[06nov.2025 22:23:21.672] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 1 0
-[06nov.2025 22:23:23.873] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 13
-[06nov.2025 22:23:23.873] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 0
-[06nov.2025 22:23:23.874] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 13
-[06nov.2025 22:23:23.874] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:23:24.972] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 2
-[06nov.2025 22:23:41.521] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 1
-[06nov.2025 22:23:41.522] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 1
-[06nov.2025 22:23:42.822] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 7
-[06nov.2025 22:23:44.822] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 0
-[06nov.2025 22:23:45.922] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 5
-[06nov.2025 22:23:49.173] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 10
-[06nov.2025 22:23:49.173] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
-[06nov.2025 22:23:50.272] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 10 4
-[06nov.2025 22:23:50.273] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 4
-[06nov.2025 22:23:54.423] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 9 0
-[06nov.2025 22:23:55.522] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
-[06nov.2025 22:23:56.623] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 15
-[06nov.2025 22:23:56.623] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 0
-[06nov.2025 22:23:59.322] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 9 0
-[06nov.2025 22:24:00.423] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 0
-[06nov.2025 22:24:00.424] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:24:01.523] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 15
-[06nov.2025 22:24:01.524] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 0
-[06nov.2025 22:24:01.524] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
-[06nov.2025 22:24:01.524] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:24:04.574] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 0
-[06nov.2025 22:24:07.823] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
-[06nov.2025 22:24:07.824] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:24:10.873] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 9
-[06nov.2025 22:24:10.873] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:24:16.272] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:24:18.024] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 9
-[06nov.2025 22:24:22.672] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 0
-[06nov.2025 22:24:24.071] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06nov.2025 22:24:24.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06nov.2025 22:24:24.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:debug
-[06nov.2025 22:24:24.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:ultra_space
-[06nov.2025 22:24:24.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06nov.2025 22:24:24.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06nov.2025 22:30:44.484] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 1
-[06nov.2025 22:30:49.085] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 2
-[06nov.2025 22:30:51.236] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 6
-[06nov.2025 22:30:51.236] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:31:02.684] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
-[06nov.2025 22:31:04.635] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 9 0
-[06nov.2025 22:31:04.636] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:31:08.834] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 10 10
-[06nov.2025 22:31:24.836] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 11
-[06nov.2025 22:31:24.836] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
-[06nov.2025 22:31:24.836] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:31:27.886] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:31:39.935] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 12
-[06nov.2025 22:31:39.935] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
-[06nov.2025 22:31:39.936] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:31:42.986] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:31:48.736] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 12
-[06nov.2025 22:31:48.736] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 0
-[06nov.2025 22:31:54.386] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 2
-[06nov.2025 22:32:05.587] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 9 0
-[06nov.2025 22:32:07.439] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
-[06nov.2025 22:32:08.638] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
-[06nov.2025 22:32:11.687] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 14
-[06nov.2025 22:32:16.785] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 9
-[06nov.2025 22:32:16.786] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 9
-[06nov.2025 22:32:29.888] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 3
-[06nov.2025 22:32:42.237] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 0
-[06nov.2025 22:33:11.788] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
-[06nov.2025 22:33:22.137] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
-[06nov.2025 22:33:42.938] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 12
-[06nov.2025 22:33:42.938] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
-[06nov.2025 22:33:47.089] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 4
-[06nov.2025 22:33:50.190] [Server thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: Invalid NPC preset provided: `pixelmon:trainers/femalescientist`
-[06nov.2025 22:33:51.239] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
-[06nov.2025 22:33:54.639] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 0
-[06nov.2025 22:33:56.839] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 5
-[06nov.2025 22:33:59.889] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 14
-[06nov.2025 22:34:07.089] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:34:35.190] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 3
-[06nov.2025 22:35:06.941] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 10 2
-[06nov.2025 22:35:59.693] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 3
-[06nov.2025 22:36:55.293] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 10
-[06nov.2025 22:36:55.294] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 0
-[06nov.2025 22:36:55.295] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
-[06nov.2025 22:37:16.645] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 2
-[06nov.2025 22:37:16.646] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 2
-[06nov.2025 22:37:20.796] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 1 8
-[06nov.2025 22:38:08.196] [Server thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: Invalid NPC preset provided: `pixelmon:trainers/malescientist`
-[06nov.2025 22:38:29.246] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06nov.2025 22:38:29.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06nov.2025 22:38:29.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:debug
-[06nov.2025 22:38:29.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:ultra_space
-[06nov.2025 22:38:29.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06nov.2025 22:38:29.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06nov.2025 22:38:30.700] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[06nov.2025 22:38:30.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[06nov.2025 22:38:30.716] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[06nov.2025 22:38:30.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06nov.2025 22:38:30.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06nov.2025 22:38:30.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06nov.2025 22:38:30.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06nov.2025 22:38:30.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:debug
-[06nov.2025 22:38:30.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:ultra_space
-[06nov.2025 22:38:30.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06nov.2025 22:38:30.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06nov.2025 22:38:30.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[06nov.2025 22:38:30.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (debug): All chunks are saved
-[06nov.2025 22:38:30.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ultra_space): All chunks are saved
-[06nov.2025 22:38:30.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06nov.2025 22:38:30.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06nov.2025 22:38:30.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06nov.2025 22:38:31.456] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[07nov.2025 00:41:21.250] [Server thread/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Datapacks found: vanilla,mod_data,mod/divineforge,mod/neoforge,mod/pixelmon,tcg
+[07nov.2025 00:41:21.335] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[07nov.2025 00:41:22.315] [Netty Local Client IO #0/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[07nov.2025 00:41:22.536] [Netty Local Client IO #0/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
+[07nov.2025 00:41:22.648] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: equal Weight: 0
+[07nov.2025 00:41:22.648] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: uncommon Weight: 40
+[07nov.2025 00:41:22.648] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: haunted Weight: 0
+[07nov.2025 00:41:22.649] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: common Weight: 50
+[07nov.2025 00:41:22.649] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: legendary Weight: 10
+[07nov.2025 00:41:22.649] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: ultimate Weight: 1
+[07nov.2025 00:41:22.650] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: rare Weight: 30
+[07nov.2025 00:41:22.650] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: notboss Weight: 0
+[07nov.2025 00:41:22.650] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: epic Weight: 20
+[07nov.2025 00:41:22.650] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: drowned Weight: 0
+[07nov.2025 00:41:22.676] [Netty Local Client IO #0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
+[07nov.2025 00:41:23.912] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:01f560e0] logged in with entity id 165 at (-2.588039465524541, -45.47273995159208, 18.368971624179768)
+[07nov.2025 00:41:23.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[07nov.2025 00:41:24.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ★Pixelmon Dev★ Dev has joined!
+[07nov.2025 00:41:24.255] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ★Pixelmon Dev★ Dev has joined!
+[07nov.2025 00:41:24.277] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 454 advancements
+[07nov.2025 00:41:25.166] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 3
+[07nov.2025 00:41:25.174] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 3
+[07nov.2025 00:41:26.505] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 12
+[07nov.2025 00:41:26.506] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
+[07nov.2025 00:41:26.507] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 12
+[07nov.2025 00:41:26.507] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:41:28.704] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 14
+[07nov.2025 00:41:28.704] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
+[07nov.2025 00:41:29.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 8
+[07nov.2025 00:41:29.806] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 0
+[07nov.2025 00:41:30.905] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 10
+[07nov.2025 00:41:30.905] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
+[07nov.2025 00:41:32.004] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 0
+[07nov.2025 00:41:32.005] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:41:33.105] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 4
+[07nov.2025 00:41:35.304] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 4
+[07nov.2025 00:41:35.358] [Server thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: Invalid NPC preset provided: `pixelmon:trainers/malescientist`
+[07nov.2025 00:41:36.405] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 7
+[07nov.2025 00:41:36.405] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 0
+[07nov.2025 00:41:36.406] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 7
+[07nov.2025 00:41:36.406] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:41:37.505] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 4
+[07nov.2025 00:41:37.505] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 4
+[07nov.2025 00:41:38.605] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 2
+[07nov.2025 00:41:39.704] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 13
+[07nov.2025 00:41:39.704] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 0
+[07nov.2025 00:41:39.705] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 13
+[07nov.2025 00:41:39.705] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:41:40.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Dev gave Dev a Charizard!]
+[07nov.2025 00:41:40.059] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully gave Dev a Charizard!
+[07nov.2025 00:41:40.060] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev gave Dev a Charizard!
+[07nov.2025 00:41:40.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 0
+[07nov.2025 00:41:40.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 8
+[07nov.2025 00:41:40.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:41:41.904] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 4
+[07nov.2025 00:41:41.904] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 4
+[07nov.2025 00:41:43.004] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 15
+[07nov.2025 00:41:43.004] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 0
+[07nov.2025 00:41:43.005] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
+[07nov.2025 00:41:43.005] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:41:43.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Invalid spec provided, %s!
+[07nov.2025 00:41:43.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] /movelist <pokemon>
+[07nov.2025 00:41:44.105] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 3
+[07nov.2025 00:41:44.106] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 3
+[07nov.2025 00:41:46.055] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 0
+[07nov.2025 00:41:48.404] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:41:50.553] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 15
+[07nov.2025 00:42:07.854] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 5
+[07nov.2025 00:42:09.654] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
+[07nov.2025 00:42:10.904] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 10
+[07nov.2025 00:42:10.904] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
+[07nov.2025 00:42:10.905] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 10
+[07nov.2025 00:42:10.905] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:42:13.955] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 11
+[07nov.2025 00:42:13.956] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:42:17.105] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 1 0
+[07nov.2025 00:42:20.204] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 9 5
+[07nov.2025 00:42:20.205] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
+[07nov.2025 00:42:21.305] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 6
+[07nov.2025 00:42:22.654] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 10 5
+[07nov.2025 00:42:22.655] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
+[07nov.2025 00:42:25.705] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 3
+[07nov.2025 00:42:26.756] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 4
+[07nov.2025 00:42:26.757] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 4
+[07nov.2025 00:42:27.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
+[07nov.2025 00:42:27.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] moveset<--[HERE]
+[07nov.2025 00:42:29.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 6
+[07nov.2025 00:42:29.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
+[07nov.2025 00:42:30.905] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 14
+[07nov.2025 00:42:30.906] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:42:33.954] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 15
+[07nov.2025 00:42:33.954] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 0
+[07nov.2025 00:42:33.955] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
+[07nov.2025 00:42:33.955] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:42:38.355] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 6
+[07nov.2025 00:42:39.821] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Charizard's Move List:
+[07nov.2025 00:42:39.827] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Flamethrower, Dragon Breath, Air Slash, Growl, Inferno, Dragon Claw, Smokescreen, Fire Fang, Flare Blitz, Scratch, Fire Spin, Ember, Scary Face, Heat Wave, Slash, Take Down, Protect, Acrobatics, Facade, Aerial Ace, Bulldoze, Swift, Rock Tomb, Flame Charge, Air Cutter, Fling, Dragon Tail, Endure, Sunny Day, Sandstorm, Dig, Brick Break, Shadow Claw, Body Slam, Fire Punch, Thunder Punch, Sleep Talk, Rest, Rock Slide, Swords Dance, Fly, Dragon Dance, Substitute, Will-O-Wisp, Crunch, Dragon Pulse, Helping Hand, Fire Blast, Fire Pledge, Earthquake, Giga Impact, Blast Burn, Outrage, Overheat, Focus Blast, Hurricane, Hyper Beam, Solar Beam, Tera Blast, Roar, Heat Crash, Focus Punch, Weather Ball, Double-Edge, Temper Flare, Scorching Sands, Breaking Swipe, Dragon Cheer, Mega Punch, Mega Kick, Snore, Steel Wing, Attract, Beat Up, Round, Mystical Fire, False Swipe, Brutal Swing, Work Up, Toxic, Hidden Power, Roost, Frustration, Return, Double Team, Echoed Voice, Sky Drop, Swagger, Confide, Hone Claws, Incinerate, Secret Power, Power-Up Punch, Rock Smash, Iron Tail, Captivate, Natural Gift, Dynamic Punch, Headbutt, Curse, Mud-Slap, Defense Curl, Fury Cutter, Submission, Counter, Seismic Toss, Rage, Dragon Rage, Fissure, Mimic, Reflect, Bide, Skull Bash, Blaze Kick, Dual Wingbeat, Scale Shot, Ancient Power, Belly Drum, Bite, Block, Celebrate, Cut, Defog, Dragon Rush, Flame Burst, Fury Swipes, Hold Hands, Howl, Leer, Metal Claw, Ominous Wind, Quick Attack, Strength, Tailwind, Twister, Wing Attack, Flamethrower, Dragon Breath, Air Slash, Growl, Inferno, Dragon Claw, Smokescreen, Fire Fang, Flare Blitz, Scratch, Fire Spin, Ember, Scary Face, Heat Wave, Slash
+[07nov.2025 00:42:40.706] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:42:41.856] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 0
+[07nov.2025 00:42:41.856] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 12
+[07nov.2025 00:42:41.856] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:42:42.955] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
+[07nov.2025 00:42:49.455] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 9
+[07nov.2025 00:42:50.556] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 3 4
+[07nov.2025 00:42:51.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
+[07nov.2025 00:42:51.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] moveset "Cinder Barrage"<--[HERE]
+[07nov.2025 00:42:52.505] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 13
+[07nov.2025 00:42:52.505] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 0
+[07nov.2025 00:42:52.506] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 13
+[07nov.2025 00:42:52.506] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:42:54.705] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 12
+[07nov.2025 00:43:01.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
+[07nov.2025 00:43:01.027] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] /moveset Cinder Barrage<--[HERE]
+[07nov.2025 00:43:09.056] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 10
+[07nov.2025 00:43:09.056] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 0
+[07nov.2025 00:43:09.057] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 10
+[07nov.2025 00:43:09.057] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:43:10.305] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 10
+[07nov.2025 00:43:10.305] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 0
+[07nov.2025 00:43:10.307] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 10
+[07nov.2025 00:43:10.307] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:43:11.405] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 10 0
+[07nov.2025 00:43:11.406] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:43:13.881] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev's Party: (Mouse over for more info)
+[07nov.2025 00:43:13.888] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Chimchar [Stats] [EVs] [IVs] [Moves]
+[07nov.2025 00:43:13.888] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Lucario [Stats] [EVs] [IVs] [Moves]
+[07nov.2025 00:43:13.888] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Miraidon [Stats] [EVs] [IVs] [Moves]
+[07nov.2025 00:43:13.888] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Blastoise [Stats] [EVs] [IVs] [Moves]
+[07nov.2025 00:43:13.888] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Charizard [Stats] [EVs] [IVs] [Moves]
+[07nov.2025 00:43:13.888] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Empty
+[07nov.2025 00:43:28.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 13
+[07nov.2025 00:43:28.805] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 8 0
+[07nov.2025 00:43:28.806] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 13
+[07nov.2025 00:43:28.806] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:43:32.157] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 1 0
+[07nov.2025 00:43:33.756] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 5 0
+[07nov.2025 00:43:34.808] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 2 4
+[07nov.2025 00:43:37.856] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 2
+[07nov.2025 00:43:48.556] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 4
+[07nov.2025 00:43:49.656] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 15
+[07nov.2025 00:43:49.656] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 13 0
+[07nov.2025 00:43:49.657] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:43:50.757] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 0
+[07nov.2025 00:43:52.656] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 10
+[07nov.2025 00:43:52.656] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
+[07nov.2025 00:44:05.008] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:44:06.107] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 0
+[07nov.2025 00:44:10.256] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 15 4
+[07nov.2025 00:44:11.808] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 0
+[07nov.2025 00:44:11.809] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:44:12.907] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
+[07nov.2025 00:44:15.057] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 1
+[07nov.2025 00:44:15.058] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 1
+[07nov.2025 00:44:16.157] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 3
+[07nov.2025 00:44:16.157] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 3
+[07nov.2025 00:44:16.389] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cinder barrage is not a move!
+[07nov.2025 00:44:22.256] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 11
+[07nov.2025 00:44:22.256] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 4 0
+[07nov.2025 00:44:27.857] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 12 10
+[07nov.2025 00:44:30.258] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:44:43.390] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Charizard just learned Electro Shot!
+[07nov.2025 00:44:52.457] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 11
+[07nov.2025 00:44:52.457] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 14 0
+[07nov.2025 00:44:52.458] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 11
+[07nov.2025 00:44:52.458] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:44:53.557] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 5
+[07nov.2025 00:45:01.508] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:45:06.308] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 7
+[07nov.2025 00:45:06.308] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 11 0
+[07nov.2025 00:45:06.309] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 7
+[07nov.2025 00:45:06.309] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 0
+[07nov.2025 00:45:13.509] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 8
+[07nov.2025 00:45:19.908] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 6 12
+[07nov.2025 00:45:19.909] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 12
+[07nov.2025 00:45:25.359] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 4
+[07nov.2025 00:45:28.407] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 0
+[07nov.2025 00:45:29.508] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 7 0
+[07nov.2025 00:45:29.509] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 11
+[07nov.2025 00:45:37.759] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 9 10
+[07nov.2025 00:45:37.759] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 9 0
+[07nov.2025 00:45:39.959] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 15
+[07nov.2025 00:45:41.059] [Server thread/ERROR] [net.minecraft.world.level.chunk.ChunkAccess/]: Unprimed heightmap: WORLD_SURFACE_WG 0 7
+[07nov.2025 00:45:44.007] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[07nov.2025 00:45:44.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07nov.2025 00:45:44.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:ultra_space
+[07nov.2025 00:45:44.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07nov.2025 00:45:44.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07nov.2025 00:45:44.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:debug
+[07nov.2025 00:45:44.908] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[07nov.2025 00:45:44.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[07nov.2025 00:45:44.927] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[07nov.2025 00:45:45.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07nov.2025 00:45:45.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07nov.2025 00:45:45.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07nov.2025 00:45:45.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07nov.2025 00:45:45.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:ultra_space
+[07nov.2025 00:45:45.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07nov.2025 00:45:45.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07nov.2025 00:45:45.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/pixelmon:debug
+[07nov.2025 00:45:45.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[07nov.2025 00:45:45.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ultra_space): All chunks are saved
+[07nov.2025 00:45:45.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07nov.2025 00:45:45.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07nov.2025 00:45:45.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (debug): All chunks are saved
+[07nov.2025 00:45:45.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07nov.2025 10:16:41.885] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
